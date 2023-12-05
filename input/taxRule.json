@@ -1,0 +1,56 @@
+{
+  "city" : "Gothenburg",
+  "maxAmountPerDay": 60,
+  "isfreeOnWeekend": true,
+  "taxFreeDates": ["1-1", "3-28","3-29","4-1","4-30","5-01","5-8","5-9","6-5","6-6","6-21"
+  ,"7","11-1","12-24","12-25","12-26", "12-31"],
+  "tollTimeFees" :[
+
+    {
+      "startTime": "6:0",
+      "endTime": "6:30",
+      "fee": 8
+    },
+    {
+      "startTime": "6:29",
+      "endTime": "6:59",
+      "fee": 8
+    },
+    {
+      "startTime": "7:0",
+      "endTime": "7:59",
+      "fee": 18
+    },
+    {
+      "startTime": "8:0",
+      "endTime": "8:30",
+      "fee": 13
+    },
+    {
+      "startTime": "8:30",
+      "endTime": "14:59",
+      "fee": 8
+    },
+    {
+      "startTime": "15:0",
+      "endTime": "15:29",
+      "fee": 13
+    },
+    {
+      "startTime": "15:30",
+      "endTime": "16:59",
+      "fee": 18
+    },
+    {
+      "startTime": "18:0",
+      "endTime": "18:29",
+      "fee": 8
+    },
+    {
+      "startTime": "18:30",
+      "endTime": "5:59",
+      "fee": 0
+    }
+  ]
+
+}
